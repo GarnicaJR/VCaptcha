@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.vaadin.addons.mygroup</groupId>
-    <artifactId>addon-example</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>Add-on for Vaadin</name>
-    <description>###Project Name###</description>
+    <groupId>org.vaadin.addons.captcha</groupId>
+    <artifactId>nano-captcha</artifactId>
+    <version>1.0.0</version>
+    <name>Nano Captcha</name>
+    <description>Vaadin Wrapper for NanoCaptcha</description>
 
     <properties>
         <vaadin.version>23.3.1</vaadin.version>
@@ -20,7 +20,7 @@
         </project.reporting.outputEncoding>
     </properties>
     <organization>
-        <name>###author###</name>
+        <name>zico</name>
     </organization>
     <licenses>
         <license>
@@ -110,6 +110,12 @@
             <artifactId>webdrivermanager</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.logicsquad</groupId>
+            <artifactId>nanocaptcha</artifactId>
+            <version>1.3</version>
         </dependency>
     </dependencies>
 
